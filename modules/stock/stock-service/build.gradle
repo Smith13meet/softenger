@@ -1,0 +1,12 @@
+dependencies {
+	compile project(":modules:stock:stock-api")
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileInclude group: 'com.google.guava', name: 'guava', version: '25.1-jre'
+	compileInclude group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+}
+
+buildService {
+	apiDir = "../stock-api/src/main/java"
+}
+
+group = "com.softenger.stocks"

@@ -1,0 +1,10 @@
+Bundle-Name: stock-api
+Bundle-SymbolicName: com.softenger.stocks.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.softenger.stocks.exception,\
+	com.softenger.stocks.model,\
+	com.softenger.stocks.service,\
+	com.softenger.stocks.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../stock-service/service.xml

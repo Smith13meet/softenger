@@ -1,0 +1,8 @@
+dependencies {
+	compile project(":modules:stock:stock-api")
+	compile project(":modules:stock:stock-service")
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileInclude group: 'com.google.guava', name: 'guava', version: '25.1-jre'
+	compileInclude group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+	compileInclude group: 'io.javaslang', name: 'javaslang', version: '2.0.6'
+}

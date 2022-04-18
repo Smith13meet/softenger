@@ -1,0 +1,5 @@
+Bundle-Name: stock-web
+Bundle-SymbolicName: com.softenger.stocks
+Bundle-Version: 1.0.0
+Export-Package: com.softenger.stocks.constants
+Import-Package: !afu.*, *

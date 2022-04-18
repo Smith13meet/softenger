@@ -1,0 +1,5 @@
+<%@ include file="/init.jsp" %>
+
+<liferay-ui:error exception="<%= NoSuchStockException.class %>" message="the-stock-could-not-be-found"/>
+<liferay-ui:error exception="<%= StockNameException.class %>" message="the-stock-name-not-valid"/>
+<liferay-ui:error exception="<%= StockQuantityException.class %>" message="the-stock-quantity-not-valid"/>
